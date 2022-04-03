@@ -1,0 +1,104 @@
+.card-pokemon {
+    display: none; 
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+}
+
+.card-pokemon .top-card {
+    padding: 30px 40px 0;
+}
+
+.card-pokemon .name {
+    margin-bottom: 5px;
+}
+
+.card-pokemon .type {
+    font-size: 12px;
+    background: #FAF9F6;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 2px 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card-pokemon .type:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    color: #6B727A;
+}
+
+.card-pokemon .details {
+    color: #FAF9F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-pokemon .card-img {
+    width: 350px;
+    height: 350px;
+}
+
+.card-pokemon img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.card-pokemon .card-infos {
+    background-color: #FAF9F6;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 30px 50px;
+    margin-top: -70px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.card-pokemon .card-infos h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #6B727A;
+}
+
+.card-pokemon .card-infos .status,  .card-pokemon .card-infos .skills{
+    padding: 0 10px;
+    width: 180px;
+}
+
+.card-pokemon .card-infos .status ul li,  .card-pokemon .card-infos .skills ul li {
+    border-bottom: 1px solid #C3C4C5;
+    padding: 0 0 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.card-pokemon.open {
+    display: block;
+}
+
+.type-bug {
+    background: linear-gradient(to right, #a6b91a, #a8e063);
+}
+
+.type-fairy {
+    background: linear-gradient(to right, #d685ad, #ffc0cb);
+}
+
+.type-electric {
+    background: linear-gradient(to right, #f7d02c, #edde5d);
+}
+
+.type-water {
+    background: linear-gradient(to right, #6390F0, #a7bfe8);
+}
+
+.type-psychic {
+    background: linear-gradient(to right, #f95587, #fbc7d4)
+}
+
+.type-slow {
+    background: linear-gradient(to right, #d685ad, #a7bfe8);
+}
+
+
+

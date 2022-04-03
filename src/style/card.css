@@ -77,27 +77,27 @@
 }
 
 .type-bug {
-    background: linear-gradient(to right, #a6b91a, #a8e063);
+    background-color: #a6b91a;
 }
 
 .type-fairy {
-    background: linear-gradient(to right, #d685ad, #ffc0cb);
+    background-color: #d685ad;
 }
 
 .type-electric {
-    background: linear-gradient(to right, #f7d02c, #edde5d);
+    background-color: #f7d02c;
 }
 
 .type-water {
-    background: linear-gradient(to right, #6390F0, #a7bfe8);
+    background-color: #6390F0;
 }
 
 .type-psychic {
-    background: linear-gradient(to right, #f95587, #fbc7d4)
+    background-color: #f95587;
 }
 
 .type-slow {
-    background: linear-gradient(to right, #d685ad, #a7bfe8);
+    background-color: #c471ed;
 }
 
 
